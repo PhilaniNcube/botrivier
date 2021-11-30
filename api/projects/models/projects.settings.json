@@ -28,19 +28,17 @@
     "end_date": {
       "type": "date"
     },
-    "budget": {
-      "type": "integer"
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "not_started",
-        "started",
-        "finished"
-      ]
-    },
-    "supervisor": {
-      "type": "string"
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
