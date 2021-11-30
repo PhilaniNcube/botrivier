@@ -32,8 +32,8 @@
     "description": {
       "type": "text"
     },
-    "image": {
-      "model": "file",
+    "images": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

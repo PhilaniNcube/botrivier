@@ -42,7 +42,7 @@
     "address": {
       "type": "string"
     },
-    "image": {
+    "images": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
