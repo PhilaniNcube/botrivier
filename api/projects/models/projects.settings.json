@@ -20,7 +20,7 @@
       "targetField": "title"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "start_date": {
       "type": "date"

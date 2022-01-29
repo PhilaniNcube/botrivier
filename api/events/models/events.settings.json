@@ -29,7 +29,7 @@
     "time": {
       "type": "string"
     },
-    "description": {
+    "description_": {
       "type": "text"
     },
     "images": {
@@ -43,6 +43,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
